@@ -29,7 +29,7 @@ WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/img'))
 WebUI.waitForPageLoad(0)
 
 'Menu Elements'
-WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/h5_Elements'))
+WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Elements'))
 
 'Elements-TextBox'
 WebUI.click(findTestObject('01.Page_ToolsQA/01.Elements/00.MenuOptions/01_span_Text Box'))

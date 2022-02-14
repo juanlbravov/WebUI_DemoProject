@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://demoqa.com/')
 
 'Menu Elements'
-WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/h5_Elements'))
+WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Elements'))
 
 'Elements-TextBox'
 WebUI.click(findTestObject('01_Widgets/01.Page_ToolsQA/02.Elements/01.TextBox/span_Text Box'))

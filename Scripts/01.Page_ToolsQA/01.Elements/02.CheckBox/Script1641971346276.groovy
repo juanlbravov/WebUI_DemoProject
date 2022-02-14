@@ -24,7 +24,7 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://demoqa.com/')
 
 'Menu_Elements'
-WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/h5_Elements'))
+WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Elements'))
 
 'Opcion_Check_Box'
 WebUI.click(findTestObject('01.Page_ToolsQA/01.Elements/00.MenuOptions/02_span_Check Box'))

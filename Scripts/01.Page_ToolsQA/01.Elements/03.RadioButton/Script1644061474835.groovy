@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://demoqa.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/h5_Elements'))
+WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Elements'))
 
 'Elements_RadioButton'
 WebUI.click(findTestObject('01.Page_ToolsQA/01.Elements/00.MenuOptions/03_span_Radio Button'))

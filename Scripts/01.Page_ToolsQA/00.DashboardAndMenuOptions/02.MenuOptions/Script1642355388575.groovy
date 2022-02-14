@@ -25,9 +25,9 @@ WebUI.navigateToUrl('https://demoqa.com/')
 
 WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/img'))
 
-WebUI.scrollToElement(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/h5_Elements'), 0)
+WebUI.scrollToElement(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Elements'), 0)
 
-WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/h5_Elements'))
+WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Elements'))
 
 WebUI.scrollToElement(findTestObject('01.Page_ToolsQA/01.Elements/00.MenuOptions/01_span_Text Box'), 0)
 
