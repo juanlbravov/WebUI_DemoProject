@@ -39,5 +39,9 @@ WebUI.verifyElementNotPresent(findTestObject('01.Page_ToolsQA/02.Forms/div_Selec
 
 WebUI.verifyElementVisible(findTestObject('01.Page_ToolsQA/02.Forms/h5_StudentRegistrationForm'))
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('01.Page_ToolsQA/02.Forms/input_firstName'), 'FirstName')
+
+WebUI.setText(findTestObject('01.Page_ToolsQA/02.Forms/input_lastName'), 'LastName')
+
+WebUI.setText(findTestObject('01.Page_ToolsQA/02.Forms/input_Email'), 'email@test.corp')
 
