@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-
 WebUI.navigateToUrl('https://demoqa.com/')
 
 WebUI.maximizeWindow()
