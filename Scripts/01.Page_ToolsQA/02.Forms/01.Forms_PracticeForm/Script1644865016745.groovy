@@ -39,3 +39,5 @@ WebUI.verifyElementNotPresent(findTestObject('01.Page_ToolsQA/02.Forms/div_Selec
 
 WebUI.verifyElementVisible(findTestObject('01.Page_ToolsQA/02.Forms/h5_StudentRegistrationForm'))
 
+WebUI.closeBrowser()
+
