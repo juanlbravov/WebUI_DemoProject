@@ -12,7 +12,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object URL
+    public static Object URL_QA
      
 
     static {
@@ -21,7 +21,7 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
     
-            URL = selectedVariables['URL']
+            URL_QA = selectedVariables['URL_QA']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

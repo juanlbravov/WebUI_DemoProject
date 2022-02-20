@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/')
-
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/img'))
+WebUI.navigateToUrl(GlobalVariable.URL_QA)
 
 WebUI.waitForPageLoad(0)
+
+WebUI.scrollToElement(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Forms'), 0)
 
 WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/00_Dashboard/h5_Forms'))
 
@@ -44,4 +44,16 @@ WebUI.setText(findTestObject('01.Page_ToolsQA/02.Forms/input_firstName'), 'First
 WebUI.setText(findTestObject('01.Page_ToolsQA/02.Forms/input_lastName'), 'LastName')
 
 WebUI.setText(findTestObject('01.Page_ToolsQA/02.Forms/input_Email'), 'email@test.corp')
+
+WebUI.check(findTestObject('01.Page_ToolsQA/02.Forms/input_gender-radio_Male'))
+
+WebUI.setText(findTestObject('01.Page_ToolsQA/02.Forms/input_MobileNumber'), '1234567890')
+
+WebUI.scrollToElement(findTestObject('01.Page_ToolsQA/02.Forms/checkbox_hobbies_Sports'), 0)
+
+WebUI.check(findTestObject('01.Page_ToolsQA/02.Forms/checkbox_hobbies_Sports'))
+
+WebUI.check(findTestObject('01.Page_ToolsQA/02.Forms/checkbox_hobbies_Reading'))
+
+WebUI.check(findTestObject('01.Page_ToolsQA/02.Forms/checkbox_hobbies_Music'))
 

@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 'URL'
-WebUI.navigateToUrl('https://demoqa.com/')
+WebUI.navigateToUrl(GlobalVariable.URL_QA)
 
 WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/img'))
 

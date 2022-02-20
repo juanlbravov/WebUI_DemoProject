@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demoqa.com'</initValue>
+      <name>URL_QA</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

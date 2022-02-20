@@ -6,7 +6,7 @@
    <UUID>7f804d56-e713-4dd2-9a3d-aef64eef92af</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\WorkSpace\Katalon\WebUI_DemoProject\WebUI_DemoProject.prj</projectFileLocation>
+   <projectFileLocation>C:\Workspace\Github\Katalon\WebUI_DemoProject\WebUI_DemoProject.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

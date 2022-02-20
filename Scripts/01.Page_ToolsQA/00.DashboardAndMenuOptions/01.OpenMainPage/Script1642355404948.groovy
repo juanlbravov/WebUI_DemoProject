@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.URL_QA)
 
 WebUI.click(findTestObject('01.Page_ToolsQA/00.DashboardAndMenuOptions/img'))
 
