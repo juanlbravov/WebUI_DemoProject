@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ff7ac6f2-936f-44a3-8bff-7d171ddf97b9</testCaseGuid>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>7dd14e1f-a4fa-430e-a991-595e9743d962</id>
+      <masked>false</masked>
+      <name>segundos</name>
+   </variable>
 </TestCaseEntity>

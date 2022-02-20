@@ -1,0 +1,10 @@
+.classpath
+.gitignore
+*.class
+*.swp
+.settings/*
+Libs/TempTestCase*
+Libs/TempTestSuite*
+bin/lib/TempTestCase*
+bin/lib/.gitignore
+Reports/
